@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 
 # Instalar dependências
-RUN pip install --no-cache-dir -r requirements-streamlit.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Expor porta
 EXPOSE 8501

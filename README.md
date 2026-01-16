@@ -12,7 +12,7 @@ chmod +x setup_streamlit.sh
 
 ### Opção 2: Manual
 ```bash
-pip install -r requirements-streamlit.txt
+pip install -r requirements.txt
 streamlit run app_streamlit.py
 ```
 
@@ -55,7 +55,7 @@ Acesse: http://localhost:8501
 ├── calculator.py              # Cálculos financeiros
 ├── data_processor.py          # Processamento de dados
 ├── test_calculator.py         # Testes
-├── requirements-streamlit.txt # Dependências (2 pacotes)
+├── requirements.txt           # Dependências (2 pacotes)
 ├── Dockerfile                 # Container
 ├── docker-compose.yml         # Docker compose
 └── setup_streamlit.sh         # Setup automático
